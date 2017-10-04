@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GIFs</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/additional_styling.css">
+</head>
+<body>
+	<div class = "container gap-top text-center">
+		<div class = "row" id ="form-container">
+			<form id ="gif-form">
+				<label for ="gif-input">Add something!</label>
+				<input type ="text" id="gif-input">
+
+				<input class ="btn btn-primary gap-left" id ="add-gif" type ="submit" value ="Submit">
+			</form>
+		</div>
+		<div class = "row" id ="gif-buttons"></div>
+		<div class = "row" id = "gifs"></div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src = "assets/js/gif.js" type ="text/javascript"></script>
+	
+</body>
+</html>
